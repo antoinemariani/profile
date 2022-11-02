@@ -1,0 +1,148 @@
+/* Responsiveness */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/* General style */
+
+body {
+  background-color: #e5e4d083;
+  font-family: 'Inter', sans-serif;
+  color: #3A5A40;
+  line-height: 30px;
+}
+
+/* Images */
+
+#profile-pic {
+  height: 100px;
+  width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/* Headers */
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  color: #344E41;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: #3A5A40;
+  line-height: 10px;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #3A5A40;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+/* Plain text */
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: #3A5A40;
+  line-height: 30px;
+}
+
+/* Links */
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a :hover {
+  background-color: #344E41;
+  transition: 10ms;
+}
+
+/* Contact Button */
+
+.btn-contact {
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #344E41;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+/* Social Icons */
+
+i {
+  color: #3A5A40;
+}
+
+.fa-icons :hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: #3A5A40;
+  text-decoration: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+/* Divs & Containers */
+
+.container {
+  margin: 0 auto;
+  /* width: 800px; */
+}
+
+.card {
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+  margin: 20px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.card-experience p {
+  text-align: left;
+}
