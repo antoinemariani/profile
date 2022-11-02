@@ -1,9 +1,17 @@
 /* Responsiveness */
 
+@media (max-width: 7680px) {
+  /* For a screen > 960px, this CSS will be read */
+  .container {
+    width: 900px;
+    margin: 0px auto;
+  }
+}
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+    margin: 0px auto;
   }
 }
 
@@ -11,6 +19,7 @@
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
+    margin: 0px auto;
   }
 }
 
@@ -18,6 +27,7 @@
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+    margin: 0px auto;
   }
 }
 
@@ -80,20 +90,32 @@ p {
 
 /* Links */
 
-a {
-  font-size: 14px;
+.fa-icons {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-a :hover {
+.fa-icons :hover {
   background-color: #344E41;
   transition: 10ms;
 }
 
-/* Contact Button */
+.yt-link {
+  color: #344E41;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.yt-link :hover {
+  color: #344E41;
+  font-size: 20px;
+  background-color: #A3B18A;
+  text-decoration: underline;
+  font-weight: 500;
+}
 
 .btn-contact {
+  text-decoration: none;
   padding: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -106,7 +128,7 @@ a :hover {
 
 /* Social Icons */
 
-i {
+.fa-brands {
   color: #3A5A40;
 }
 
@@ -118,20 +140,15 @@ i {
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding: 0px 20px 0px 0px;
 }
 
 /* Divs & Containers */
-
-.container {
-  margin: 0 auto;
-  /* width: 800px; */
-}
 
 .card {
   background-color: #FFFFFF;
@@ -145,4 +162,15 @@ i {
 
 .card-experience p {
   text-align: left;
+}
+
+.footer {
+  line-height: 5px;
+  padding: 20px;
+}
+
+.footer h3 {
+  line-height: 5px;
+  margin-top: 5px;
+  padding: 5px;
 }
